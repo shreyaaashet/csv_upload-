@@ -17,6 +17,7 @@ let isEmailValid = function (email) {
   let reqExp = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/;
   return reqExp.test(email);
 };
+console.log("hello");
 // let isPasswordValid = function (password) {
 //   return password.length >= 4;
 // };
