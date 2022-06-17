@@ -38,7 +38,7 @@ let CSVConfig = {
       inputName: "email",
       required: true,
       requiredError,
-      unique: true,
+      // unique: true,
       uniqueError,
       validate: isEmailValid,
       validateError
